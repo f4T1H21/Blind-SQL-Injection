@@ -1,5 +1,5 @@
 # Blind SQL Injection
-I wrote this script to solve [PortSwigger Web Security Academy](https://portswigger.net/web-security/)'s particular [`Blind SQL injection with conditional responses`](https://portswigger.net/web-security/sql-injection/blind/lab-conditional-responses) lab. Because the script covers most of the fundamentals of Blind SQLi with binary search (bisection) method, I decided to upload it in here.
+I wrote this script to solve [PortSwigger Web Security Academy](https://portswigger.net/web-security/)'s particular [`Blind SQL injection with conditional responses`](https://portswigger.net/web-security/sql-injection/blind/lab-conditional-responses) lab. Because the script covers most fundamentals of Blind SQLi with binary search (bisection) method, I decided to upload it in here.
 <br>
 The script with comments is a potential resource for anyone who is looking for a reference to get the blind SQL injection job done.
 <br>
