@@ -4,7 +4,7 @@ I wrote this script to solve [PortSwigger Web Security Academy](https://portswig
 The script with comments is a potential resource for anyone who is looking for a reference to get the blind SQL injection job done.
 <br>
 ### Also see
-- Script's standard output as a file named [`stdout.txt`](stdout.txt) for the script.
-- Log file created by the script named as [`sqli-dumped-data_ac861f471f5c8330c0df67c800c200d4.web-security-academy.net_.txt`](sqli-dumped-data_ac861f471f5c8330c0df67c800c200d4.web-security-academy.net_.txt).
+- Script's standard output [`stdout.txt`](stdout.txt)
+- Log file created by the script [`sqli-dumped-data_ac861f471f5c8330c0df67c800c200d4.web-security-academy.net_.txt`](sqli-dumped-data_ac861f471f5c8330c0df67c800c200d4.web-security-academy.net_.txt)
 
 ___─ Written by Şefik Efe ─___
