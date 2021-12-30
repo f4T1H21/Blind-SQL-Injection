@@ -111,7 +111,7 @@ try:
                                 f.writelines(fileContent)
                                 print(f"[*] Dumped data written to: {filename}\n")
 
-                        del result[-1]      # Delete the newline character added @ line 102.
+                        del result[-1]      # Delete the newline character added @ line 103.
 
                         if timehascame == 1:    # For the 1st time no undumped rows left.
                             t = re.compile(".*users*.", re.IGNORECASE)      # Compile 'users' pattern ignoring case distinctions.
@@ -133,7 +133,7 @@ try:
                                 print(f"\n\n{filename}\n{''.join('=' for i in range(len(filename)))}\n{f.read()[:-1]}\n\n    Exited!\n")
                             exit()
 
-                        row = -1    # We need this to be 0 and it will @ line 141.
+                        row = -1    # We need this to be 0 and it will @ line 142.
                         print(f"[*] No more rows is being returned from current query!\n[*] Continuing with the next query: {query};\n")
 
                     result.append("\n") # Add a newline character in order to make different lines seperated from each other when the list is converted to string.
